@@ -1,4 +1,6 @@
-module.exports = function (options, loaderContext) {
-  return require('./lib/main')(options, loaderContext)
+const loaderUtils = require('loader-utils')
+module.exports = function ( loaderContext )
+{	
+	const options = Object.assign({}, loaderUtils.getOptions(this))
+	return require('./lib/main')(options, loaderContext)
 }
-
