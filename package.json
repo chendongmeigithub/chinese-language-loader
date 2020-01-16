@@ -1,6 +1,6 @@
 {
   "name": "chinese-language-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "简体繁体互转的 webpack-loader ，直接在loader中使用即可",
   "main": "index.js",
   "directories": {
