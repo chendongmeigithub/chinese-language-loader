@@ -1,7 +1,7 @@
 {
   "name": "chinese-language-loader",
   "version": "1.0.0",
-  "description": "一个简体繁体互转的 webpack-loader ，直接在loader中使用即可",
+  "description": "简体繁体互转的 webpack-loader ，直接在loader中使用即可",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -20,7 +20,7 @@
     "Simplified",
     "Traditional"
   ],
-  "readme":"使用手册https://github.com/maoxiaoquan/language-tw-loader/blob/master/README.md",
+  "readme":"使用手册https://github.com/chendongmeigithub/chinese-language-loader/blob/master/README.md",
   "readmeFilename":"README.md",
   "author": "chendongmei",
   "repository": {
@@ -28,5 +28,5 @@
     "url": "git+https://github.com/chendongmeigithub/chinese-language-loader.git"
   },
   "license": "ISC",
-  "homepage": "https://github.com/maoxiaoquan/language-tw-loader#readme"
+  "homepage": "https://github.com/chendongmeigithub/chinese-language-loader#readme"
 }
